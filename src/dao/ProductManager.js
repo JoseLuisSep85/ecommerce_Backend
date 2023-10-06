@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require('uuid');
 
 module.exports = class Productmanager {
     constructor() {
-        this.path = "./src/models/products.json"; 
+        this.path = "./src/dao/models/products.json"; 
     }
 
     readProducts = async () => {
