@@ -20,6 +20,8 @@ router.get("/realtimeproducts", async (req, res) => {
     })
 })
 
+router.get('/')
+
 
 
 
