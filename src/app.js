@@ -10,6 +10,9 @@ app.set('views', __dirname + '/views');
 app.set('views engine', 'handlebars');
 app.use(express.static(__dirname + '/public'));
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 
 app.use('/', viewsRouter)
 
